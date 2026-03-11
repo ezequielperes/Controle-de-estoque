@@ -30,6 +30,7 @@ UI.py → interface e validações
 5. Executar:
 
 table products.sql
+
 python main.py
 
 ## Próximos passos
