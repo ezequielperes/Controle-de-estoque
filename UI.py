@@ -22,7 +22,7 @@ def validation(input_text, expected_type='str', avoid_changes=False):
                         value = float(value.replace(',', '.'))
 
             elif expected_type == 'float':
-                value = float(input(input_text.replace(',', '.')))
+                value = float(input(input_text).replace(',', '.'))
 
             elif expected_type == 'bool':
                 while True:
