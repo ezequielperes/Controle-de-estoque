@@ -1,6 +1,6 @@
 # Sistema de Controle de Estoque
 
-Projeto desenvolvido para praticar backend com Python e PostgreSQL.
+Projeto desenvolvido para praticar backend com **Python** e **PostgreSQL**, focado em operações CRUD, manipulação de banco de dados e construção de consultas dinâmicas.
 
 ## Tecnologias utilizadas
 
@@ -10,35 +10,40 @@ Projeto desenvolvido para praticar backend com Python e PostgreSQL.
 
 ## Funcionalidades
 
-- Inserir produtos
-- Listar produtos
-- Atualizar produtos
-- Deletar produtos
-- Filtros dinâmicos (ID, nome, preço, estoque e data)
+- Inserção de produtos
+- Listagem de produtos
+- Atualização de dados
+- Exclusão de produtos
+- Sistema de filtros dinâmicos por:
+  - ID
+  - Nome
+  - Preço
+  - Estoque
+  - Data de criação
 
 ## Estrutura do projeto
 
-main.py → fluxo principal do sistema  
-functions.py → lógica do banco de dados  
-UI.py → interface e validações
+main.py -> fluxo principal do sistema
+functions.py -> lógica e queries do banco de dados
+UI.py -> interface e validações de entrada
 
-## Como executar
 
-1. Criar banco PostgreSQL
-2. Criar tabela products
-4. Configurar variáveis de ambiente
-5. Executar:
+## Como executar o projeto
 
-table products.sql
+1. Criar banco de dados PostgreSQL
+2. Criar a tabela utilizando o arquivo: database.sql
+3. Configurar variáveis de ambiente
+4. Executar o sistema: python main.py
 
-python main.py
 
 ## Próximos passos
 
-- Refatorar usando SQLAlchemy
-- Transformar em API usando FastAPI
-Adicionar novas funções como:
-- Estoque Máximo
-- Estoque Mínimo
-- Ponto de ruptura
-- Ponto de pedido
+- Refatorar o projeto utilizando **SQLAlchemy**
+- Transformar o sistema em uma **API com FastAPI**
+- Implementar novas funcionalidades de estoque:
+  - Estoque máximo
+  - Estoque mínimo
+  - Ponto de ruptura
+  - Ponto de pedido
+
+
